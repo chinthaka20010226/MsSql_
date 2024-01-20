@@ -28,6 +28,7 @@ Constraint chk_product check (Profit_Margin >= 0 and Profit_Margin <=100)
 
 -- insert into values,
 Insert Into Client Values('C001','chinthaka','Matale','2020-10-24',$50000)
+Insert Into Client(Name,City,Date_Joined,ClientNo,Balance_Due) Values('parami','Matale','2020-02-26','C002',$10000)
 
 -- view the Table, 
 Select *
