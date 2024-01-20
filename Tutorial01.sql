@@ -34,10 +34,10 @@ Insert Into Client(Name,City,Date_Joined,ClientNo,Balance_Due) Values('parami','
 
 Insert Into Client Values
 ('C003','nilanthi','Matale','2020-04-24',$150000),
-('C004','sadakalum','Matale','2020-03-20',$500000),
+('C004','sadakalum','Matale','2014-03-20',$500000),
 ('C005','prabath','Polonnaruwa','2020-11-24',$50000),
 ('C006','chalana','Colombo','2020-05-24',$70000),
-('C007','senarathna','Matale','2020-12-24',$60000)
+('C007','senarathna','Matale','2014-12-24',$60000)
 
 Insert Into Client(Name,City,Date_Joined,ClientNo,Balance_Due) Values
 ('parami','Matale','2020-03-26','C008',$20000),
@@ -99,3 +99,8 @@ Where Name like '%m%'
 Select Name
 From Client
 Where Date_Joined > '2020-02-26'
+
+-- 06
+Select Name,City
+From Client
+Where Date_Joined >= '2014-01-01' and Date_Joined <= '2014-12-31'
