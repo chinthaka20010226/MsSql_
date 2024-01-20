@@ -63,6 +63,9 @@ Select *
 From Product
 
 
+-- delete all data/records
+Delete From Client
+
 -- delete/drop the Table,
 Drop Table Product
 
@@ -91,3 +94,4 @@ Where City = 'Matale'
 Select count(*)
 From Client
 Where Name like '%m%'
+
