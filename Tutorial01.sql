@@ -45,6 +45,16 @@ Insert Into Client(Name,City,Date_Joined,ClientNo,Balance_Due) Values
 ('parami','Anuradhapura','2020-05-26','C010',$40000)
 
 
+Insert Into Product Values
+('P001','FlashDrive 8 GB',5,100,30,1000,1050),
+('P002','Keyboard',5,100,30,1000,1050),
+('P003','Mouse',5,100,30,1000,1050),
+('P004','HDD 1 TB',5,100,30,1000,1050),
+('P005','Monitor',5,100,30,1000,1050),
+('P006','Touch Pad',5,100,30,1000,1050)
+
+
+
 -- view the Table,
 Select *
 From Client
@@ -58,3 +68,12 @@ Drop Table Product
 
 -- delete/drop the Database
 Drop Database Tutorial01
+
+
+
+
+-- Questions,
+
+Select Name
+From Client
+
