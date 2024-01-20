@@ -26,16 +26,25 @@ Constraint product_pk primary key(ProductNo),
 Constraint chk_product check (Profit_Margin >= 0 and Profit_Margin <=100)
 )
 
+
 -- insert into values,
 Insert Into Client Values('C001','chinthaka','Matale','2020-10-24',$50000)
 Insert Into Client(Name,City,Date_Joined,ClientNo,Balance_Due) Values('parami','Matale','2020-02-26','C002',$10000)
+Insert Into Client Values
+('C003','nilanthi','Matale','2020-04-24',$150000),
+('C004','sadakalum','Matale','2020-03-20',$500000),
+('C005','prabath','Polonnaruwa','2020-11-24',$50000),
+('C006','chalana','Colombo','2020-05-24',$70000),
+('C007','senarathna','Matale','2020-12-24',$60000)
 
--- view the Table, 
+
+-- view the Table,
 Select *
 From Client
 
 Select *
 From Product
+
 
 -- delete/drop the Table,
 Drop Table Product
