@@ -51,7 +51,8 @@ Insert Into Product Values
 ('P003','Mouse',5,100,30,1000,1050),
 ('P004','HDD 1 TB',5,100,30,1000,1050),
 ('P005','Monitor',5,100,30,1000,1050),
-('P006','Touch Pad',5,100,30,1000,1050)
+('P006','Touch Pad',5,100,30,1000,1050),
+('P007','Touch Pad',55,100,30,1000,1050)
 
 
 
@@ -64,7 +65,7 @@ From Product
 
 
 -- delete all data/records
-Delete From Client
+Delete From Product
 
 -- delete/drop the Table,
 Drop Table Product
@@ -123,3 +124,8 @@ Where Balance_Due > $100000
 -- 08
 Select avg(Profit_Margin) as averageProfitMargin
 From Product
+
+-- 09
+Select *
+From Product
+Where Profit_Margin > 50
