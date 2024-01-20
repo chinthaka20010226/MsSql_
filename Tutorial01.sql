@@ -129,3 +129,8 @@ From Product
 Select *
 From Product
 Where Profit_Margin > 50
+
+-- 10
+Select Qty_Available * Item_Cost as Value
+From Product
+Where Description = 'Monitor'
