@@ -81,3 +81,8 @@ From Client
 -- 02
 Select distinct City
 From Client
+
+-- 03
+Select count(*)
+From Client
+Where City = 'Matale'
