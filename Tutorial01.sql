@@ -104,3 +104,8 @@ Where Date_Joined > '2020-02-26'
 Select Name,City
 From Client
 Where Date_Joined >= '2014-01-01' and Date_Joined <= '2014-12-31'
+
+
+Select Name,City
+From Client
+Where Date_Joined between '2014-01-01' and '2014-12-31'
