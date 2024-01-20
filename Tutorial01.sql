@@ -26,7 +26,10 @@ Constraint product_pk primary key(ProductNo),
 Constraint chk_product check (Profit_Margin >= 0 and Profit_Margin <=100)
 )
 
--- view the Table,
+-- insert into values,
+Insert Into Client Values('C001','chinthaka','Matale','2020-10-24',$50000)
+
+-- view the Table, 
 Select *
 From Client
 
