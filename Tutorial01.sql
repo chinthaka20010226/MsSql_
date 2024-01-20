@@ -12,3 +12,5 @@ Balance_Due money
 
 Select *
 From Client
+
+Drop Table Client
