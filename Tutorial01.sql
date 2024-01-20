@@ -22,7 +22,8 @@ Qty_Available int,
 Re_Order_Level int,
 Item_Cost money,
 Selling_Price money,
-Constraint product_pk primary key(ProductNo)
+Constraint product_pk primary key(ProductNo),
+Constraint chk_product check (Profit_Margin >= 0 and Profit_Margin <=100)
 )
 
 -- view the Table,
@@ -33,7 +34,7 @@ Select *
 From Product
 
 -- delete/drop the Table,
-Drop Table Client
+Drop Table Product
 
 -- delete/drop the Database
 Drop Database Tutorial01
