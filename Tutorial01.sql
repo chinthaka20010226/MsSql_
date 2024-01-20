@@ -119,3 +119,7 @@ Where Year(Date_Joined) = 2014;
 Select Name
 From Client
 Where Balance_Due > $100000
+
+-- 08
+Select avg(Profit_Margin) as averageProfitMargin
+From Product
