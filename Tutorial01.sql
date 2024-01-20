@@ -95,3 +95,7 @@ Select count(*)
 From Client
 Where Name like '%m%'
 
+-- 05
+Select Name
+From Client
+Where Date_Joined > '2020-02-26'
