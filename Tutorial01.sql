@@ -14,3 +14,5 @@ Select *
 From Client
 
 Drop Table Client
+
+Drop Database Tutorial01
