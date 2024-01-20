@@ -74,6 +74,10 @@ Drop Database Tutorial01
 
 -- Questions,
 
+-- 01
 Select Name
 From Client
 
+-- 02
+Select distinct City
+From Client
