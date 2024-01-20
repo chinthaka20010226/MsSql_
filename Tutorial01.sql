@@ -86,3 +86,8 @@ From Client
 Select count(*)
 From Client
 Where City = 'Matale'
+
+-- 04
+Select count(*)
+From Client
+Where Name like '%m%'
